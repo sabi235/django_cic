@@ -22,8 +22,7 @@ jobs:
     # Change the version below to your required version of python
     docker:
       - image: cimg/python:3.8
-      - image: mdillon/postgis
-        name: postgres
+      - image: circleci/postgres:9.6.2-alpine
         environment:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: root
