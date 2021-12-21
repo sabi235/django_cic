@@ -1,0 +1,29 @@
+[
+    {
+        "model": "testapp.testapp",
+        "pk": 1,
+        "fields": {
+            "name": "ABC",
+            "slug": "abc",
+            "description": "test abc"
+        }
+    },
+    {
+        "model": "testapp.testapp",
+        "pk": 2,
+        "fields": {
+            "name": "DEF",
+            "slug": "def",
+            "description": "test def"
+        }
+    },
+    {
+        "model": "testapp.testapp",
+        "pk": 3,
+        "fields": {
+            "name": "XYZ",
+            "slug": "xyz",
+            "description": "test xyz"
+        }
+    }
+]
