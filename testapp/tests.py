@@ -18,7 +18,7 @@ class TestappTests(TestCase):
         response = Testapp.objects.first()
 
         # Check that the response is AAA OK.
-        self.assertEqual(response.name, "AAA")
+        self.assertEqual(response.name, "BBB")
 
     def test_slug(self):
         # Issue a GET request.
